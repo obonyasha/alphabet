@@ -1,0 +1,74 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 1440px;
+}
+
+.letter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter__img{
+    width: 80%;
+    height: auto;
+}
+
+.test{
+    /* position: relative; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px;
+    border-color: rgb(214, 210, 210);
+    padding: 16px;
+}
+
+.letter__team{
+    font-size: xx-large;
+    color: tomato;
+}
+
+.test__word{
+    display: flex;
+    margin: 0;
+    padding-top: 16px;
+    font-size: x-large;
+    letter-spacing: 3px;
+}
+
+.test__caption{
+    position: absolute;
+    color: white;
+    background-color: green;
+    border-radius: 15%;
+    font-size: small;
+}
+
+/* .test__caption_none{
+    display: none;
+}    */
+
+p{
+    margin: 0;
+}
+
+.alphabet {
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+    grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+    margin-top: 30px;
+    padding: 16px;
+    border: solid 0.5px;
+    border-color: rgb(45, 118, 255);
+    color: rgb(28, 28, 112);
+    font-weight: bold;
+}

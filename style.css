@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1440px;
+    background-color: rgb(150, 241, 170);
+}
+
+.main__btn{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+}
