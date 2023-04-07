@@ -12,6 +12,7 @@ arrWord.forEach(el => {
 document.addEventListener("click", e => {
     if (e.target.classList.contains("test__elem") && e.target.innerHTML === "а") {
                 e.target.style.color = "red";
-                caption.classList.remove("test__caption_none");
+                testWord.lastChild.classList.add = ("test__word::after")
+                testWord.lastChild.style.display = "";
     }
 })

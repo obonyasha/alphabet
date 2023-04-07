@@ -1,4 +1,4 @@
-.main{
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,18 +7,18 @@
     max-width: 1440px;
 }
 
-.letter{
+.letter {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.letter__img{
+.letter__img {
     width: 80%;
     height: auto;
 }
 
-.test{
+.test {
     /* position: relative; */
     width: 40%;
     display: flex;
@@ -30,20 +30,33 @@
     padding: 16px;
 }
 
-.letter__team{
+.letter__team {
     font-size: xx-large;
     color: tomato;
 }
 
-.test__word{
+.test__word {
     display: flex;
     margin: 0;
     padding-top: 16px;
     font-size: x-large;
     letter-spacing: 3px;
+    position: relative;
 }
 
-.test__caption{
+/* .test__word::after {
+    display: none;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    color: white;
+    background-color: green;
+    border-radius: 15%;
+    content: "Правильно!";
+    font-size: small;
+} */
+
+.test__caption {
     position: absolute;
     color: white;
     background-color: green;
@@ -51,11 +64,13 @@
     font-size: small;
 }
 
+
+
 /* .test__caption_none{
     display: none;
 }    */
 
-p{
+p {
     margin: 0;
 }
 
