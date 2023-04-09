@@ -44,7 +44,7 @@
     position: relative;
 }
 
-/* .test__word::after {
+.test__elem:after {
     display: none;
     position: absolute;
     top: -3px;
@@ -54,15 +54,20 @@
     border-radius: 15%;
     content: "Правильно!";
     font-size: small;
-} */
+}
 
-.test__caption {
+.test__word.block:after{
+    display: block;
+}
+
+
+/* .test__caption {
     position: absolute;
     color: white;
     background-color: green;
     border-radius: 15%;
     font-size: small;
-}
+} */
 
 
 
