@@ -1,6 +1,7 @@
 let testWord = document.querySelector(".test__word");
 let alphabet = document.querySelector(".alphabet");
 let letter = document.querySelector(".letter__team");
+let letterImg = document.querySelector(".letter__img");
 
 function addTestWord() {
     testWord.innerHTML = "";
@@ -42,13 +43,20 @@ document.addEventListener("click", e => {
             testWord.lastChild.classList.add("test__caption_err");
             setTimeout(function () {
                 testWord.lastChild.classList.remove("test__caption_err");
-            }, 7000);
+            }, 5000);
         }
 })
 
 document.addEventListener("click", e => {
     if (e.target.classList.contains("alphabet__letter")) {
+        Array.from(alphabet.children).forEach(el => {
+            if (el.classList.contains("alphabet__letter_select")) {
+                el.classList.remove("alphabet__letter_select")
+            }
+        })
+        e.target.classList.add("alphabet__letter_select");
         letter.innerHTML = alphabetArr[e.target.innerHTML];
+        letterImg.setAttribute('src', `${letterImages[e.target.innerHTML]}`)
         addTestWord();
     }
 })

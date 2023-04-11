@@ -74,10 +74,9 @@ p {
 
 .alphabet {
     width: 40%;
-    display: grid;
     justify-content: center;
-    gap: 5px;
-    grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 16px;
@@ -85,4 +84,13 @@ p {
     border-color: rgb(45, 118, 255);
     color: rgb(28, 28, 112);
     font-weight: bold;
+}
+
+.alphabet__letter{
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+.alphabet__letter_select{
+    color: crimson;
+    border-bottom: solid 1px crimson;
 }

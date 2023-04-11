@@ -1,8 +1,49 @@
-let testWords = ["Трактор", "Кошка", "Грабли", "Пальто", "Забор", "Зебра", "Весна", "Дерево", "Дом", "Дрова", "Трава", "Кровать", "Огонь", "Игра", "Ледник", "Изделие"]
-let alphabetArr ={
+let testWords = ["Трактор", "Кошка", "Грабли", "Пальто", "Забор", "Зебра", "Весна",
+    "Дерево", "Дом", "Дрова", "Трава", "Кровать", "Огонь", "Игра", "Ледник", "Изделие",
+    "Солнце", "Скамейка", "Искра", "Путь", "Тропинка", "Болото", "Карман", "Ножницы",
+    "Туман", "Молоко", "Йогурт", "Йод", "Зной", "Край", "Блузка", "Близнецы", "Булыжник",
+    "Лёд", "Мёд", "Актёр", "Бумажник", "Багажник", ]
+let alphabetArr = {
     "Aa": "а",
     "Бб": "б",
     "Вв": "в",
     "Гг": "г",
-    "Дд": "д"
+    "Дд": "д",
+    "Ее": "е",
+    "Ёё": "ё",
+    "Жж": "ж",
+    "Зз": "з",
+    "Ии": "д",
+    "Йй": "д",
+    "Кк": "к",
+    "Лл": "л",
+    "Мм": "м",
+    "Нн": "н",
+    "Оо": "о",
+    "Пп": "п",
+    "Рр": "р",
+    "Сс": "с",
+    "Тт": "т"
+}
+let letterImages = {
+    "Aa": "https://abv.online-services.org.ua/images/rus/0/0.png",
+    "Бб": "https://abv.online-services.org.ua/images/rus/1/1.png",
+    "Вв": "https://abv.online-services.org.ua/images/rus/2/2.png",
+    "Гг": "https://abv.online-services.org.ua/images/rus/3/3.png",
+    "Дд": "https://abv.online-services.org.ua/images/rus/4/4.png",
+    "Ее": "https://abv.online-services.org.ua/images/rus/5/5.png",
+    "Ёё": "https://abv.online-services.org.ua/images/rus/6/6.png",
+    "Жж": "https://abv.online-services.org.ua/images/rus/7/7.png",
+    "Зз": "https://abv.online-services.org.ua/images/rus/8/8.png",
+    "Ии": "https://abv.online-services.org.ua/images/rus/9/9.png",
+    "Йй": "https://abv.online-services.org.ua/images/rus/10/10.png",
+    "Кк": "https://abv.online-services.org.ua/images/rus/11/11.png",
+    "Лл": "https://abv.online-services.org.ua/images/rus/12/12.png",
+    "Мм": "https://abv.online-services.org.ua/images/rus/13/13.png",
+    "Нн": "https://abv.online-services.org.ua/images/rus/14/14.png",
+    "Оо": "https://abv.online-services.org.ua/images/rus/15/15.png",
+    "Пп": "https://abv.online-services.org.ua/images/rus/16/16.png",
+    "Рр": "https://abv.online-services.org.ua/images/rus/17/17.png",
+    "Сс": "https://abv.online-services.org.ua/images/rus/18/18.png",
+    "Тт": "https://abv.online-services.org.ua/images/rus/19/19.png"
 }
